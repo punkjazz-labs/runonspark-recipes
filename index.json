@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-23T20:01:50.154535Z",
+  "generated_at": "2026-08-23T21:51:09.375868Z",
   "recipes": [
     {
       "schema_version": 1,
@@ -501,7 +501,7 @@
     {
       "schema_version": 1,
       "id": "laguna-s-2-1-nvfp4-dflash-1s",
-      "version": 6,
+      "version": 7,
       "display_name": "Laguna S 2.1 + DFlash",
       "publisher": "poolside",
       "model_by": "poolside",
@@ -571,7 +571,7 @@
           "moe_backend": "",
           "linear_backend": "",
           "gpu_memory_utilization": "0.85",
-          "max_model_len": 262144,
+          "max_model_len": 131072,
           "max_num_seqs": 32,
           "max_num_batched_tokens": 0,
           "multimodal_image_limit": 0,
@@ -663,7 +663,7 @@
     {
       "schema_version": 1,
       "id": "minimax-h3-comfyui-1s",
-      "version": 4,
+      "version": 5,
       "display_name": "MiniMax H3",
       "publisher": "MiniMax + Comfy-Org",
       "model_by": "MiniMax",
@@ -693,7 +693,7 @@
         {
           "role": "primary",
           "repository": "Comfy-Org/MiniMax-H3",
-          "revision": "6701b0a14feefd7141bd9cfe8386961c27007622",
+          "revision": "d6cfb4e54cfb3b4e650edc5590bb1de10abba08e",
           "expected_bytes": 42470585471,
           "licence": "MiniMax H3 Community License Agreement",
           "licence_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/LICENSE",
@@ -1599,7 +1599,7 @@
     {
       "schema_version": 1,
       "id": "qwen38-27b-obliterated-q8-0-1s",
-      "version": 2,
+      "version": 3,
       "display_name": "Qwen 3.8 27B Obliterated",
       "publisher": "OBLITERATUS",
       "model_by": "Qwen team, Alibaba; abliteration by OBLITERATUS",
@@ -1630,10 +1630,10 @@
         {
           "role": "primary",
           "repository": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-          "revision": "d8ab3e2dfee510566123b2b079cd0df2fd458837",
+          "revision": "af34629438e091685513fe2f66c0f2918de5734c",
           "expected_bytes": 29047084826,
           "licence": "Apache-2.0",
-          "licence_url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/tree/d8ab3e2dfee510566123b2b079cd0df2fd458837",
+          "licence_url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/tree/af34629438e091685513fe2f66c0f2918de5734c",
           "files": [
             {
               "name": "Qwen3.8-27B-OBLITERATED-Q8_0.gguf",
