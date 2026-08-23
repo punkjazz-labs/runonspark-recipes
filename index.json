@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-23T18:14:07.791358Z",
+  "generated_at": "2026-08-23T18:44:15.61318Z",
   "recipes": [
     {
       "schema_version": 1,
@@ -1599,7 +1599,7 @@
     {
       "schema_version": 1,
       "id": "qwen38-27b-obliterated-q8-0-1s",
-      "version": 1,
+      "version": 2,
       "display_name": "Qwen 3.8 27B Obliterated",
       "publisher": "OBLITERATUS",
       "model_by": "Qwen team, Alibaba; abliteration by OBLITERATUS",
@@ -1609,7 +1609,7 @@
       "verification": "candidate",
       "source": {
         "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-        "revision": "2648a6231b82328c601ba27b9ffd5029057d0e33"
+        "revision": "d8ab3e2dfee510566123b2b079cd0df2fd458837"
       },
       "topology": {
         "spark_count": 1
@@ -1630,10 +1630,10 @@
         {
           "role": "primary",
           "repository": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-          "revision": "2648a6231b82328c601ba27b9ffd5029057d0e33",
-          "expected_bytes": 29047084728,
+          "revision": "d8ab3e2dfee510566123b2b079cd0df2fd458837",
+          "expected_bytes": 29047084826,
           "licence": "Apache-2.0",
-          "licence_url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/tree/2648a6231b82328c601ba27b9ffd5029057d0e33",
+          "licence_url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/tree/d8ab3e2dfee510566123b2b079cd0df2fd458837",
           "files": [
             {
               "name": "Qwen3.8-27B-OBLITERATED-Q8_0.gguf",
@@ -1641,7 +1641,7 @@
             },
             {
               "name": "chat_template.jinja",
-              "expected_bytes": 408
+              "expected_bytes": 506
             }
           ]
         }
@@ -1733,7 +1733,7 @@
         }
       ],
       "memory_model": {
-        "weights_bytes": 29047084728,
+        "weights_bytes": 29047084826,
         "kv_bytes_per_token": 65536,
         "runtime_overhead_bytes": 4000000000
       }
