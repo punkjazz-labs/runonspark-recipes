@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-23T16:19:27.999897Z",
+  "generated_at": "2026-08-23T16:40:30.813753Z",
   "recipes": [
     {
       "schema_version": 1,
@@ -1455,7 +1455,7 @@
     {
       "schema_version": 1,
       "id": "qwen38-27b-nvfp4-1s",
-      "version": 1,
+      "version": 2,
       "display_name": "Qwen 3.8 27B",
       "publisher": "MiaAI Lab + RadixArk",
       "model_by": "Qwen team, Alibaba",
@@ -1498,7 +1498,7 @@
         "docker": true,
         "nvidia_container_runtime": true,
         "per_node_minimum_memory_bytes": 120000000000,
-        "per_node_memory_reserve_bytes": 11900000000,
+        "per_node_memory_reserve_bytes": 12000000000,
         "safety_margin_bytes": 20000000000,
         "secrets": [],
         "required_licence_acceptance": true
@@ -1509,7 +1509,7 @@
         "served_model_id": "RadixArk/Qwen3.8-27B-NVFP4",
         "sglang": {
           "tensor_parallel_size": 1,
-          "mem_fraction_static": "0.90",
+          "mem_fraction_static": "0.85",
           "context_length": 262144,
           "max_running_requests": 10,
           "quantization": "",
