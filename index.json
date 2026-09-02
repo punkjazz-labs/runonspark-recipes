@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T08:00:36.275172Z",
+  "generated_at": "2026-09-02T08:00:11.575182Z",
   "recipes": [
     {
       "schema_version": 1,
@@ -1938,7 +1938,7 @@
     {
       "schema_version": 1,
       "id": "qwen38-flash-next-nvfp4-2s",
-      "version": 2,
+      "version": 3,
       "display_name": "Qwen 3.8 Flash Next",
       "publisher": "MiaAI Lab + RadixArk",
       "model_by": "Qwen team, Alibaba",
@@ -1973,9 +1973,9 @@
       "runtime": {
         "kind": "sglang",
         "image": "ghcr.io/punkjazz-labs/basement-sglang-qwen38-flash-next",
-        "digest": "sha256:a7da51c60dcb673c72e3769187159b08207b51cf642cd4c3990d25083d8b7a4c",
-        "image_bytes": 14411614427,
-        "image_disk_bytes": 30453388032,
+        "digest": "sha256:7caec6b0df2dbcae8c95c95e45e6c36e2582c4e0612ed5d6bc056400f563fe52",
+        "image_bytes": 14411651826,
+        "image_disk_bytes": 30453551861,
         "environment": {
           "FLASHINFER_CUDA_ARCH_LIST": "12.1a",
           "TMPDIR": "/root/tmp",
@@ -2023,12 +2023,15 @@
           "max_running_requests": 16,
           "quantization": "modelopt_fp4",
           "kv_cache_dtype": "",
-          "speculative_algorithm": "NEXTN",
-          "speculative_num_draft_tokens": 4,
+          "speculative_algorithm": "",
+          "speculative_num_draft_tokens": 0,
           "speculative_model_role": "",
           "chat_template_file": "",
           "tool_call_parser": "auto",
           "reasoning_parser": "auto",
+          "default_chat_template_kwargs": {
+            "enable_thinking": false
+          },
           "attention_backend": "flashinfer",
           "trust_remote_code": true,
           "chunked_prefill_size": 4096,
@@ -2037,8 +2040,8 @@
           "mamba_full_memory_ratio": "",
           "mamba_radix_cache_strategy": "extra_buffer",
           "max_mamba_cache_size": 0,
-          "speculative_num_steps": 3,
-          "speculative_eagle_topk": 1,
+          "speculative_num_steps": 0,
+          "speculative_eagle_topk": 0,
           "sampling_defaults": "",
           "page_size": 64,
           "mamba_track_interval": 64,
