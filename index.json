@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T08:00:21.321673Z",
+  "generated_at": "2026-10-02T08:00:22.112503Z",
   "recipes": [
     {
       "schema_version": 1,
@@ -1363,7 +1363,7 @@
     {
       "schema_version": 1,
       "id": "minimax-h3-comfyui-1s",
-      "version": 10,
+      "version": 11,
       "display_name": "MiniMax H3",
       "publisher": "MiniMax + Comfy-Org",
       "model_by": "MiniMax",
@@ -1393,7 +1393,7 @@
         {
           "role": "primary",
           "repository": "Comfy-Org/MiniMax-H3",
-          "revision": "bf92c4091e333e69b8ca1998e0a669f15cb0832b",
+          "revision": "e5eb578a89295337b8ff433a035929ce0279e0b6",
           "expected_bytes": 42470585471,
           "licence": "MiniMax H3 Community License Agreement",
           "licence_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/LICENSE",
